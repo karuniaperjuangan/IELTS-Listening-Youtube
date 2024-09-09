@@ -1,0 +1,5 @@
+streamlit
+youtube-dl
+openai
+python-dotenv
+ffmpeg-python
