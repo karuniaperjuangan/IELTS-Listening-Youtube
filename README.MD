@@ -6,8 +6,8 @@ This Streamlit app generates IELTS listening tasks from YouTube videos by downlo
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/karuniaperjuangan/IELTS-Listening-Youtube
+    cd IELTS-Listening-Youtube
     ```
 
 2. Install the dependencies:
