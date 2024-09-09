@@ -4,6 +4,11 @@ FROM python:3.11-slim
 # Set the working directory
 WORKDIR /app
 
+# Add the FFmpeg repository to the sources list
+RUN apt-get update && apt-get install -y software-properties-common
+RUN add-apt-repository ppa:mc3man/trusty-media
+RUN apt-get update && apt-get install -y ffmpeg
+
 # Copy the requirements file into the container
 COPY requirements.txt .
 
